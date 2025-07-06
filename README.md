@@ -25,16 +25,22 @@ This project demonstrates end-to-end fine-tuning of a GPT-2 model on a custom da
 
 ```
 star-llm-finetune/
-├── train.jsonl                 # Training dataset (360 star descriptions)
-├── convert_to_hf_dataset.py    # Data conversion script
-├── tokenize_dataset.py         # Tokenization pipeline
-├── train.py                    # Model training script
-├── generate.py                 # CLI text generation
-├── test_model.py              # Model testing and validation
-├── app.py                     # Gradio web interface
-├── monitor_training.py        # Training progress monitoring
-└── requirements.txt           # Python dependencies
+├── train.jsonl                    # Training dataset (360 star descriptions)
+├── convert_to_hf_dataset.py       # Data conversion script
+├── tokenize_dataset.py            # Tokenization pipeline
+├── train.py                       # Model training script
+├── generate.py                    # CLI text generation
+├── test_model.py                  # Model testing and validation
+├── app.py                         # Gradio web interface
+├── monitor_training.py            # Training progress monitoring
+├── requirements.txt               # Python dependencies
+├── star-dataset/                  # HuggingFace dataset (original)
+├── star-dataset-tokenized/        # Tokenized dataset for training
+├── star-gpt2-finetuned/          # Fine-tuned model (excluded from git)
+└── flagged/                      # Gradio flagged examples
 ```
+
+**Note**: The `star-gpt2-finetuned/` directory (~3.3GB) is excluded from version control due to size constraints. The model will be created locally when you run the training script.
 
 ## 🔧 Installation
 
