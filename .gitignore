@@ -27,10 +27,12 @@ venv/
 env/
 .env/
 
-# Model files (large files)
+# Model files (large files - exclude from git due to size)
 star-gpt2-finetuned/
-star-dataset/
-star-dataset-tokenized/
+
+# Dataset folders (small, can be included)
+# star-dataset/
+# star-dataset-tokenized/
 
 # Jupyter Notebook
 .ipynb_checkpoints

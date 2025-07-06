@@ -1,0 +1,42 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 62277,
+  "description": "",
+  "download_checksums": {
+    "/Users/sudharakaashen/star-llm-finetune/train.jsonl": {
+      "num_bytes": 70232,
+      "checksum": null
+    }
+  },
+  "download_size": 70232,
+  "features": {
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "completion": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 132509,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 62277,
+      "num_examples": 360,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
